@@ -29,11 +29,11 @@ System.out.println(calculatorCGLIBProxyInstance.multiply(5, 3));
 ```
 Output log:
 ```java
-com.example.Main$CachingInvocationHandler -- sum(2,3) | Cache not found.
+INFO com.example.Main$CachingInvocationHandler -- sum(2,3) | Cache not found.
 5
-com.example.Main$CachingInvocationHandler -- sum(2,3) | Cache found.
+INFO com.example.Main$CachingInvocationHandler -- sum(2,3) | Cache found.
 5
-com.example.Main$CachingInvocationHandler -- sum(3,3) | Cache not found.
+INFO com.example.Main$CachingInvocationHandler -- sum(3,3) | Cache not found.
 6
 INFO com.example.Main$CachingInvocationHandler -- sum(2,3) | Cache found.
 5
